@@ -24,7 +24,7 @@ Feature: Is it Friday yet?
     | anything else! | Nope   |
 ---
 
-.Exemple d'image insérée en asciidoc
-image::artifacts-r303.svg[width=80%]
+.Exécution des tests - success
+image::test_friday_success.png[width=80%]
 
 == TP2...
