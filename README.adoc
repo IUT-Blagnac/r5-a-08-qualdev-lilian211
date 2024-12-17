@@ -7,8 +7,7 @@ Ce dépôt concerne les rendus de mailto:lilian.monestier@etu.univ-tlse2.fr[Lili
 == TP1
 
 .Code is_it_friday_yet.feature
-[source,feature]
----
+```
 Feature: Is it Friday yet?
   Everybody wants to know when it's Friday
 
@@ -22,7 +21,7 @@ Feature: Is it Friday yet?
     | Friday         | TGIF   |
     | Sunday         | Nope   |
     | anything else! | Nope   |
----
+```
 
 .Exécution des tests - success
 image::test_friday_success.png[width=80%]
@@ -30,8 +29,7 @@ image::test_friday_success.png[width=80%]
 == TP2
 
 .Code Order.java
-[source,feature]
----
+```
 package dojo;
 
 import java.util.ArrayList;
@@ -58,7 +56,7 @@ public class Order {
         return cocktails;
     }
 }
----
+```
 
 .Exécution des tests - success
 image::test_cocktail_success.png[width=80%]
